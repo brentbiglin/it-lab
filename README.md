@@ -23,6 +23,8 @@ The first day of Ponzu, I dealt a lot with the setup of the environment and the 
 
 After that, my goal is to take advantage of the JSON APIs and addons that have been developed for Ponzu so that when a device is checked out by a student, either the student or the IT Lab or both will be warned when the item is due, overdue, or reserved either by email our through Spiceworks tickets. Figuring out how to automate these parts together will be the most difficult and time-consuming part of the process. Deploying it on a server should just be a matter of coordinating with the IT staff and Googling.
 
+### 2017-10-11 
+
 #### Actually, It's Docker
 
 Creating the reservation system was actually pretty easy. There are other implementations outside of the scope of the learning process that I won't be documenting here (like automating reminders to turn items back in to the IT Lab), so I'll be focusing on learning how to use Docker. Docker provides a virtual environment for the app to live in. I think that learning Docker, which is widely used in the development and deployment of applications (DevOps), will provide a lot of insight for me as a designer and amateur coder. I think it's very important to understand the capabilities and limitations of all of the tools and frameworks that go into designing, creating, and releasing digital products.
