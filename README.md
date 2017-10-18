@@ -4,6 +4,7 @@
 	* [October 3rd](#2017-10-03) - Initial Post
 	* [October 4th](#2017-10-04) - First Day of Ponzu
 	* [October 11th](#2017-10-11) - Actually, It's Docker
+	* [October 18th](#2017-10-18) - Actually, It's Network Problems
 
 ## Creating a Reservation System
 
@@ -36,3 +37,19 @@ After completing the first three and a half sections of the five-part Docker tut
 There is also something called a Dockerfile, which is basically a script for creating or compiling a Docker image. The content management system that I've made makes a Dockerfile, so I need to figure out how to compile that into an image and then run one or more containers of the CMS that can be accessed by the IT Lab staff. I might see if I can require that someone is on the utexas.edu network before they can access the CMS in the first place for increased security.
 
 In addition to learning the concepts and terminology of Docker, I'm also troubleshooting many small issues that arise. I had to uninstall and reinstall a newer version of a program called VirtualBox, which came with Docker's install but apparently comes out of the box outdated. I had some issues with my permissions for my /var/run folder, where the docker daemon runs. I'm trying to view each of these small setbacks as opportunities to get a better sense of how a Unix system functions, from the filesystem to networking.
+
+### 2017-10-18
+
+#### Actually, It's Network Problems
+
+After the regular amount and severity of setbacks I encountered running Docker locally on my computer, I felt confident in building and running the same image on one of the iSchool's virtual servers. The process went smoothly up until the point of building the app from the Dockerfile. The paths specified in the Dockerfile were not matching up with the GOPATH that I had set up on the virtual server. After editing it a couple of times with some trial and error, I managed to reach the part of the build during which packages would be downloaded from GitHub and the Golang standard library.
+
+The process encountered a fatal error and was unable to resolve github.com and golang.org as hosts. After some Googling, I found a fix to uncomment a line in the Docker upstart configuration file, which would allow Docker to use Google's DNS servers during the build. I made sure to restart Docker so that this configuration would be implemented, and ran the build command again. Same problem!
+
+I double-checked the configuration file, and everything should be good to go. I messaged a friend of mine, a software developer who regularly works with Docker. The good news was that he had encountered this problem many times before and had solved it the same way—utilizing Google's DNS servers. The bad news was that he had no idea why it hadn't worked on my machine. I worked to troubleshoot this problem, but couldn't find any other users that had implemented this fix without it having solved the problem.
+
+I found the Lynda tutorial and the documentation for Docker to be very good. The instructor explained each step very thoroughly and pointed out and emphasized steps that were counterintuitive; for example, creating containers from images and what is carried over from the images and what is not when multiple containers are created. Basically the image is a source, and the containers are representations of that image that can be changed, preserved, or done away with when no longer useful.
+
+Once I encountered network problems, I became very frustrated because I was being sidetracked by external issues that had nothing to do with Docker per se. I suspect that the fact that I'm trying to launch an application on a virtual server in a virtual environment might have have something to do with the network problems that I'm having. Because the ultimate, external goal of learning Docker is to create a reservation system for the IT Lab, the logical thing to do would be to get help from the IT technicians that I work with. I feel that this course of action is outside the scope of my learning plan, yet I'm stuck without it—I've gotten a good feel for Docker and have created and built containers from images. Now I have network problems, and I'm not particularly interested in going this in-depth into DEVOPS. As I stated earlier, I hoped to get a better sense of the environment in which Docker is used, its limitations, and its capabilities. Now that my issues seem to go beyond the working knowledge of a professional software developer that works with Docker on a daily basis, I think I have gone a bit too far into the deep end.
+
+For that reason, I hope to change course to another skill that I know will be useful to me professionally (and recreationally): graphic design. Sordid attempts at designing flyers and promotional materials in the past have been personally embarrassing for me. I use Adobe XD and know it pretty well, but Photoshop and Illustrator are both a little scary for me. I'd like to become more comfortable with both of them, and at the same time develop a more... let's say marketable aesthetic.
