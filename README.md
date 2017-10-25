@@ -5,6 +5,7 @@
 	* [October 4th](#2017-10-04) - First Day of Ponzu
 	* [October 11th](#2017-10-11) - Actually, It's Docker
 	* [October 18th](#2017-10-18) - Actually, It's Network Problems
+	* [October 25th](#2017-10-25) - Illustrator and Photoshop Project - Hijabi Skateboarder
 
 ## Creating a Reservation System
 
@@ -53,3 +54,13 @@ I found the Lynda tutorial and the documentation for Docker to be very good. The
 Once I encountered network problems, I became very frustrated because I was being sidetracked by external issues that had nothing to do with Docker per se. I suspect that the fact that I'm trying to launch an application on a virtual server in a virtual environment might have have something to do with the network problems that I'm having. Because the ultimate, external goal of learning Docker is to create a reservation system for the IT Lab, the logical thing to do would be to get help from the IT technicians that I work with. I feel that this course of action is outside the scope of my learning plan, yet I'm stuck without it—I've gotten a good feel for Docker and have created and built containers from images. Now I have network problems, and I'm not particularly interested in going this in-depth into DEVOPS. As I stated earlier, I hoped to get a better sense of the environment in which Docker is used, its limitations, and its capabilities. Now that my issues seem to go beyond the working knowledge of a professional software developer that works with Docker on a daily basis, I think I have gone a bit too far into the deep end.
 
 For that reason, I hope to change course to another skill that I know will be useful to me professionally (and recreationally): graphic design. Sordid attempts at designing flyers and promotional materials in the past have been personally embarrassing for me. I use Adobe XD and know it pretty well, but Photoshop and Illustrator are both a little scary for me. I'd like to become more comfortable with both of them, and at the same time develop a more... let's say marketable aesthetic.
+
+### 2017-1025
+
+#### Illustrator and Photoshop Project - Hijabi Skateboarder
+
+I learned a great deal about the basic workflow of both Illustrator and Photoshop by editing a photo in Photoshop by cropping the background out of a photo, creating an image of the person I isolated by making it black and white and playing with the contrast and brightness, then opening it in Illustrator. From there, I created a palette of four colors that I liked, filled in the background, then created some visually pleasing shapes to highlight the person—an Afghani girl doing a kick-flip on her skateboard. I'm very pleased with the final result.
+
+![Afghani Skateboarder](src="https://biglin.io/img/illustrator/afghanigirl.png")
+
+To experiment further, I also made an avocado with some yellow, green, and brown gradients, and a small logo for a fake app that incorporated a leaf and roots into it.
