@@ -61,6 +61,6 @@ For that reason, I hope to change course to another skill that I know will be us
 
 I learned a great deal about the basic workflow of both Illustrator and Photoshop by editing a photo in Photoshop by cropping the background out of a photo, creating an image of the person I isolated by making it black and white and playing with the contrast and brightness, then opening it in Illustrator. From there, I created a palette of four colors that I liked, filled in the background, then created some visually pleasing shapes to highlight the person—an Afghani girl doing a kick-flip on her skateboard. I'm very pleased with the final result.
 
-![Afghani Skateboarder](https://biglin.io/img/illustrator/afghanigirl.png)
+![afghan girl image](https://biglin.io/img/illustrator/afghangirl.png)
 
 To experiment further, I also made an avocado with some yellow, green, and brown gradients, and a small logo for a fake app that incorporated a leaf and roots into it.
