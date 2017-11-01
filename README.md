@@ -64,3 +64,7 @@ I learned a great deal about the basic workflow of both Illustrator and Photosho
 ![afghan girl image](https://biglin.io/img/illustrator/afghangirl.png)
 
 To experiment further, I also made an avocado with some yellow, green, and brown gradients, and a small logo for a fake app that incorporated a leaf and roots into it.
+
+![avocado image](https://biglin.io/img/illustrator/avocado.png)
+
+![rootcoin](https://biglin.io/img/illustrator/rootcoin.png)
